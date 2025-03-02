@@ -1,12 +1,21 @@
-# INTRU CG assignments (In progress)
-## Description
+##Starfield Animation
+#Project Description
+This project is a starfield animation created using the Pygame library.
 
-This repository contains the basic files of laboratory and practical work for students of the AIB, of the Baikal school BRICS, INRTU.
-Descriptions of laboratory work are presented directly in the notebook files.
+##Key Features
 
-## Content 
-1) [Win 3.11 Screensaver](https://github.com/gruzdev-as/INRTU_CG/blob/master/Win%203.11.%20ScreenSaver%20for%20students.ipynb)
-
-When developing tasks, the following open sources were taken into account:
-1) [MIT](https://ocw.mit.edu/courses/6-837-computer-graphics-fall-2012/)
-2) Watt, Alan. 3D Computer Graphics. Addison-Wesley, 1999. ISBN: 9780201398557.
+#Star Creation:
+- Stars are created with random coordinates within the screen boundaries.
+- Each star has coordinates (x, y, z), where z represents the distance to the star.
+- The star color is set to white (255, 255, 255).
+#Star Movement:
+- Stars move towards the viewer by decreasing their distance z.
+- The x and y coordinates are updated based on perspective (x = x * 256 / z, y = y * 256 / z).
+- If a star goes off the screen, it is replaced with a new one.
+#Star Rendering:
+- Stars are displayed on the screen as white circles.
+- Star coordinates are converted from the custom coordinate system to the Pygame coordinate system.
+#Game Loop:
+-The game loop updates the positions of the stars and renders them on the screen.
+-The loop continues until the user closes the window.
+ 
