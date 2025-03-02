@@ -26,5 +26,17 @@ This project is a starfield animation created using the Pygame library.
 - The game loop updates the positions of the stars and renders them on the screen.
 - The loop continues until the user closes the window.
 
+# Description of Changes
+
+## Adding a Gradient Background
+
+- The background now features a vertical gradient, transitioning from dark blue ((0, 0, 50)) at the top of the screen to black ((0, 0, 0)) at the bottom.
+
+- This creates a night sky effect and adds depth to the animation.
+Adding Stars with Pastel Colors
+
+## Stars now have random pastel colors.
+- Colors are generated in the range from (200, 200, 200) to (255, 255, 255), creating soft, visually pleasing shades.
+- This makes the animation more visually appealing and diverse.
 
  
